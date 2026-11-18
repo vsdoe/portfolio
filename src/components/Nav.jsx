@@ -27,7 +27,7 @@ export default function Nav() {
         </div>
 
         <div className="footer-socials">
-                         <a href="YOUR_LINKEDIN_URL" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                         <a href="www.linkedin.com/in/divya-gupta-3a505617a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                           <FontAwesomeIcon icon={faLinkedin} />
                         </a>
         
@@ -35,7 +35,7 @@ export default function Nav() {
                           <FontAwesomeIcon icon={faGithub} />
                         </a>
         
-                        <a href="mailto:YOUR_EMAIL" aria-label="Email">
+                        <a href="mailto:divya2207.work@gmaill.com" aria-label="Email">
                           <FontAwesomeIcon icon={faEnvelope} />
                         </a>
                       </div>
