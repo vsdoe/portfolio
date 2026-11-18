@@ -64,7 +64,7 @@ export default function Research() {
             rel="noreferrer"
             className="research-link"
           >
-            Explore PrepBot ↗
+            Explore PrepBot 
           </a>
         </div>
 
@@ -94,7 +94,6 @@ export default function Research() {
               <p>{item.description}</p>
             </div>
 
-            <span className="interest-arrow">↗</span>
           </article>
         ))}
       </div>

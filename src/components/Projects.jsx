@@ -122,7 +122,7 @@ export default function Projects() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Explore project <span>↗</span>
+                Explore project
               </a>
             </div>
           </article>
@@ -139,7 +139,7 @@ export default function Projects() {
             rel="noreferrer"
             className="button button-primary"
           >
-            GitHub ↗
+            GitHub
           </a>
         </div>
       </div>

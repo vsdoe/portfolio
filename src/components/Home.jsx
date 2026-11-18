@@ -39,7 +39,7 @@ export default function Home() {
 
         <div className="hero-actions">
           <a href="#projects" className="button button-primary">
-            Explore my work ↗
+            Explore my work
           </a>
         </div>
 
