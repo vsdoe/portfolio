@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import RobotSvg from './RobotSvg';
 
 const PAGE_LINES = {
+  home: 'coffee first, code later ☕',
   projects: 'these are my favorites →',
   journey: 'long road, huh',
 };

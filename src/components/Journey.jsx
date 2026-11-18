@@ -97,14 +97,16 @@ export default function Journey({ active }) {
   const dashedPath = smoothPath([toPx(now), toPx(cta)]);
 
   return (
-    <section className={`page${active ? ' active' : ''}`} id="page-journey">
-      <div className="page-title-row">
-        <svg className="title-doodle" viewBox="0 0 36 20" aria-hidden="true">
-          <path d="M4 14 L14 4 L20 10 L32 2" strokeWidth="1.8" fill="none" strokeLinecap="round" />
-          <circle cx="32" cy="2" r="1.8" fill="var(--muted)" stroke="none" />
-        </svg>
-        <div className="page-title mono">journey</div>
-      </div>
+    <section className="journey-section content-section section-shell" id="journey">
+      <div className="section-heading journey-heading">
+  <div>
+    <span className="section-kicker">
+      03 / THE ROAD SO FAR
+    </span>
+    <h2>My journey<span className="pink-period">.</span></h2>
+    <p>A few milestones, detours and happy accidents.</p>
+  </div>
+</div>
 
       <div className="road-wrap">
         <div className="road-container" ref={containerRef}>

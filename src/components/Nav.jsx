@@ -1,23 +1,46 @@
-export default function Nav({ pages, current, onGo }) {
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
+
+const links = [
+  { label: 'Home', href: '#home' },
+  { label: 'Projects', href: '#projects' },
+  { label: 'Research', href: '#research' },
+  { label: 'Journey', href: '#journey' },
+  { label: 'About', href: '#about' },
+];
+
+export default function Nav() {
   return (
-    <div id="nav">
-      <button className="nav-arrow mono" onClick={() => onGo(current - 1)} aria-label="Previous page">
-        ←
-      </button>
-      <div className="dots">
-        {pages.map((p, i) => (
-          <div
-            key={p}
-            className={`dot${i === current ? ' active' : ''}`}
-            onClick={() => onGo(i)}
-            role="button"
-            aria-label={`Go to ${p}`}
-          />
-        ))}
-      </div>
-      <button className="nav-arrow mono" onClick={() => onGo(current + 1)} aria-label="Next page">
-        →
-      </button>
-    </div>
+    <header className="site-header">
+      <nav className="navbar">
+        <a href="#home" className="brand mono">
+          <span>&lt;</span>vsdoe<span>/&gt;</span>
+        </a>
+
+        <div className="nav-links">
+          {links.map((link) => (
+            <a key={link.href} href={link.href}>
+              {link.label}
+            </a>
+          ))}
+        </div>
+
+        <div className="footer-socials">
+                         <a href="YOUR_LINKEDIN_URL" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                          <FontAwesomeIcon icon={faLinkedin} />
+                        </a>
+        
+                        <a href="https://github.com/vsdoe" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                          <FontAwesomeIcon icon={faGithub} />
+                        </a>
+        
+                        <a href="mailto:YOUR_EMAIL" aria-label="Email">
+                          <FontAwesomeIcon icon={faEnvelope} />
+                        </a>
+                      </div>
+      </nav>
+    </header>
   );
 }
