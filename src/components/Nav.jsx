@@ -27,18 +27,18 @@ export default function Nav() {
         </div>
 
         <div className="footer-socials">
-                         <a href="www.linkedin.com/in/divya-gupta-3a505617a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                          <FontAwesomeIcon icon={faLinkedin} />
-                        </a>
-        
-                        <a href="https://github.com/vsdoe" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                          <FontAwesomeIcon icon={faGithub} />
-                        </a>
-        
-                        <a href="mailto:divya2207.work@gmaill.com" aria-label="Email">
-                          <FontAwesomeIcon icon={faEnvelope} />
-                        </a>
-                      </div>
+            <a href="https://www.linkedin.com/in/divya-gupta-3a505617a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <FontAwesomeIcon icon={faLinkedin} />
+          </a>
+
+          <a href="https://github.com/vsdoe" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+
+          <a href="mailto:divya2207.work@gmail.com" aria-label="Email">
+            <FontAwesomeIcon icon={faEnvelope} />
+          </a>
+        </div>
       </nav>
     </header>
   );

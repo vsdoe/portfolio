@@ -40,7 +40,7 @@ export default function App() {
                 </p>
                 <br></br>
                 <div className="footer-socials">
-                 <a href="www.linkedin.com/in/divya-gupta-3a505617a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                 <a href="https://www.linkedin.com/in/divya-gupta-3a505617a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <FontAwesomeIcon icon={faLinkedin} />
                 </a>
 
@@ -48,7 +48,7 @@ export default function App() {
                   <FontAwesomeIcon icon={faGithub} />
                 </a>
 
-                <a href="mailto:divya2207.work@gmaill.com" aria-label="Email">
+                <a href="mailto:divya2207.work@gmail.com" aria-label="Email">
                   <FontAwesomeIcon icon={faEnvelope} />
                 </a>
               </div>
